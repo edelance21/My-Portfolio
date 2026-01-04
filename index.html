@@ -2,275 +2,413 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Enmanuel Delance</title>
-    <link rel="shortcut icon" href="imagenes/portfolio.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Enmanuel Delance</title>
+  <link rel="shortcut icon" href="imagenes/portfolio.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Enmanuel Delance</a>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Enmanuel Delance</a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown link
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another
-                                    action</a></li>
-                            <li><a class="dropdown-item" href="#">Something
-                                    else here</a></li>
-                        </ul>
-                    </li>
-                </ul>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#contactMe" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contact Me
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="mailto:delance2114@gmail.com">Gmail</a></li>
+              <li><a class="dropdown-item" href="https://www.linkedin.com/in/enmanuel-delance-85b3b8147/">LinkedIn</a></li>
+              <li><a class="dropdown-item" href="#contactMe">Contact Site</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <!-- CONTENIDO PRINCIPAL -->
+    <div class="div-contenidoPrincipal">
+      <h1>Frontend Developer</h1>
+      <p class="p-contenido-principal">I develop fast and accessible
+        web
+        experiences, solving real problems throughwell-designed
+        interfaces.</p>
+      <div class="div-a">
+        <a class="btn btn-success" id="contactMe1" href="mailto:delance2114@gmail.com">Contact Me <img
+            class="contact-img" src="imagenes/contact-mail.png" alt="contact-logo"></a>
+        <a class="btn btn-primary" id="linkendIn" target="_blank"
+          href="https://www.linkedin.com/in/enmanuel-delance-85b3b8147/">LinkedIn <img class="contact-img" src="imagenes/linkedin.png" alt="linkedin-logo"></a>
+      </div>
+      <div class="div-img">
+        <img class="img-perfil" src="imagenes/imagen-portafolio.PNG" alt="Enmanuel-Delance-Fotografia">
+      </div>
+    </div>
+    <div id="about" class="sobreMi">
+      <h2>About Me</h2>
+      <p class="p-sobreMi">
+        Hi! 👋🏻 I'm Enmanuel Delance, a frontend developer living
+        in Santo Domingo, Dominican Republic.
+      </p>
+      <br>
+      <p class="p-sobreMi">
+        I've honed my skills by building personal projects, gaining
+        hands-on experience creating modern, responsive, and
+        user-centric interfaces. I enjoy transforming ideas into
+        functional products, carefully considering both the design
+        and the logic behind every interaction.
+      </p>
+      <br>
+      <p class="p-sobreMi">
+        I have advanced JavaScript skills and experience working
+        with Bootstrap to develop fast and consistent layouts. I'm
+        currently learning React JS, delving into components, state,
+        and best practices for creating more scalable applications.
+      </p>
+      <br>
+      <p class="p-sobreMi">
+        I also have knowledge of UX and UI, enabling me to design
+        interfaces with usability and user experience in mind. I use
+        Figma for design and prototyping, which streamlines the
+        process of taking an idea from design to a faithful code
+        implementation.
+      </p>
+      <br>
+      <p class="p-sobreMi">
+        I'm motivated to keep learning, constantly improve my code,
+        and take on new challenges that allow me to grow as a
+        developer. In my free time, I enjoy exploring new
+        technologies, refining my projects, and taking my skills to
+        the next level.
+      </p>
+    </div>
+    <div id="services" class="myServices">
+      <h2>My Services</h2>
+      <div class="div-developer">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModalFronted">
+          💻 Frontend Development
+        </button>
+
+        <!-- Modal Frontend Development  -->
+        <div class="modal fade" id="exampleModalFronted" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title fs-5" id="exampleModalLabel">Frontend Development</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                I develop modern, responsive, and optimized web interfaces using HTML, CSS, and JavaScript. I focus on
+                writing clean, maintainable code geared towards a good user experience.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
             </div>
+          </div>
         </div>
-    </nav>
-    <div class="container">
-        <!-- CONTENIDO PRINCIPAL -->
-        <div class="div-contenidoPrincipal">
-            <h1>Frontend Developer</h1>
-            <p class="p-contenido-principal">I develop fast and accessible
-                web
-                experiences, solving real problems throughwell-designed
-                interfaces.</p>
-            <div class="div-a">
-                <a class="btn btn-success" id="contactMe" href="mailto:delance2114@gmail.com">Contact Me <img
-                        class="contact-img" src="imagenes/contact-mail.png" alt></a>
-                <a class="btn btn-primary" id="linkendIn" target="_blank"
-                    href="https://www.linkedin.com/in/enmanuel-delance-85b3b8147/">LinkendIn</a>
+      </div>
+      <div class="div-ui">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModalUi">
+          🎨 UI Implementation & Responsive Design
+        </button>
+
+        <!-- Modal UI  -->
+        <div class="modal fade" id="exampleModalUi" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title fs-5" id="exampleModalLabel">UI Implementation & Responsive Design</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                I transform designs into functional interfaces adaptable to any device, taking care of visual
+                consistency, accessibility and interaction details.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
             </div>
-            <div class="div-img">
-                <img class="img-perfil" src="imagenes/imagen-portafolio.PNG" alt="Enmanuel-Delance-Fotografia">
-            </div>
+          </div>
         </div>
-        <div id="about" class="sobreMi">
-            <h2>About Me</h2>
-            <p class="p-sobreMi">
-                Hi! 👋🏻 I'm Enmanuel Delance, a frontend developer living
-                in Santo Domingo, Dominican Republic.
+      </div>
+      <div class="div-ux">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModalUx">
+          🧠 UX-Oriented Interfaces
+        </button>
 
-                I've honed my skills by building personal projects, gaining
-                hands-on experience creating modern, responsive, and
-                user-centric interfaces. I enjoy transforming ideas into
-                functional products, carefully considering both the design
-                and the logic behind every interaction.
-
-                I have advanced JavaScript skills and experience working
-                with Bootstrap to develop fast and consistent layouts. I'm
-                currently learning React JS, delving into components, state,
-                and best practices for creating more scalable applications.
-
-                I also have knowledge of UX and UI, enabling me to design
-                interfaces with usability and user experience in mind. I use
-                Figma for design and prototyping, which streamlines the
-                process of taking an idea from design to a faithful code
-                implementation.
-
-                I'm motivated to keep learning, constantly improve my code,
-                and take on new challenges that allow me to grow as a
-                developer. In my free time, I enjoy exploring new
-                technologies, refining my projects, and taking my skills to
-                the next level.
-            </p>
+        <!-- Modal UX  -->
+        <div class="modal fade" id="exampleModalUx" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title fs-5" id="exampleModalLabel">UX-Oriented Interfaces</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Apply UX/UI principles to create user-friendly products, understanding the user flow and prioritizing
+                clarity and usability on every screen.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div id="services" class="myServices">
-            <h2>My Services</h2>
-            <div class="div-developer">
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                    data-bs-target="#exampleModalFronted">
-                    💻 Frontend Development
-                </button>
+      </div>
+      <div class="div-javascript">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModalJs">
+          ⚙️ JavaScript Interactivity
+        </button>
 
-                <!-- Modal Frontend Development  -->
-                <div class="modal fade" id="exampleModalFronted" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Frontend Development</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                I develop modern, responsive, and optimized web interfaces using HTML, CSS, and
-                                JavaScript. I focus on writing clean, maintainable code geared towards a good user
-                                experience.
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <!-- Modal JS  -->
+        <div class="modal fade" id="exampleModalJs" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title fs-5" id="exampleModalLabel">JavaScript Interactivity</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                I add interactivity to web applications using JavaScript, improving the user experience with animations,
+                validations, and dynamic behaviors.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
             </div>
-            <div class="div-ui">
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalUi">
-                    🎨 UI Implementation & Responsive Design
-                </button>
-
-                <!-- Modal UI  -->
-                <div class="modal fade" id="exampleModalUi" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">UI Implementation & Responsive
-                                    Design</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                I transform designs into functional interfaces adaptable to any device, taking care of
-                                visual consistency, accessibility and interaction details.
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="div-ux">
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalUx">
-                    🧠 UX-Oriented Interfaces
-                </button>
-
-                <!-- Modal UX  -->
-                <div class="modal fade" id="exampleModalUx" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">UX-Oriented Interfaces</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                Apply UX/UI principles to create user-friendly products, understanding the user flow and
-                                prioritizing clarity and usability on every screen.
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="div-javascript">
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalJs">
-                    ⚙️ JavaScript Interactivity
-                </button>
-
-                <!-- Modal JS  -->
-                <div class="modal fade" id="exampleModalJs" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">JavaScript Interactivity</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                I add interactivity to web applications using JavaScript, improving the user experience
-                                with animations, validations, and dynamic behaviors.
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="div-react">
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                    data-bs-target="#exampleModalReact">
-                    🧩 React (In Progress)
-                </button>
-
-                <!-- Modal React  -->
-                <div class="modal fade" id="exampleModalReact" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">React JS</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                I build component-based interfaces and am constantly learning React JS, applying best
-                                practices to create scalable applications.
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="div-figma">
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                    data-bs-target="#exampleModalFigma">
-                    🛠️ Prototyping with Figma
-                </button>
-
-                <!-- Modal React  -->
-                <div class="modal fade" id="exampleModalFigma" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Prototyping with Figma</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                Design and prototype interfaces in Figma, facilitating visual planning before moving on
-                                to development. </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
+      <div class="div-react">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModalReact">
+          🧩 React (In Progress)
+        </button>
 
+        <!-- Modal React  -->
+        <div class="modal fade" id="exampleModalReact" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title fs-5" id="exampleModalLabel">React JS</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                I build component-based interfaces and am constantly learning React JS, applying best practices to
+                create scalable applications.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="div-figma">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModalFigma">
+          🛠️ Prototyping with Figma
+        </button>
+
+        <!-- Modal React  -->
+        <div class="modal fade" id="exampleModalFigma" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title fs-5" id="exampleModalLabel">Prototyping with Figma</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Design and prototype interfaces in Figma, facilitating visual planning before moving on to development.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
+  </div>
+  <!-- PROJECTS -->
+   <div id="project" class="myProject">
+  <h2 class="text-center mb-4">My Projects</h2>
+<div id="projectsCarousel" class="carousel slide">
+
+  <!-- INDICADORES -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="4"></button>
+  </div>
+
+  <!-- CONTENIDO -->
+  <div class="carousel-inner">
+
+    <!-- PROYECTO 1 -->
+    <div class="carousel-item active">
+      <div class="text-center">
+        <img src="imagenes/proyecto1-menu.png" loading="lazy" class="d-block w-100 project-img" alt="Proyecto 1">
+
+        <div class="mt-3">
+          <h5>Food Recipe Finder</h5>
+          <p>Search and explore food recipes, view detailed cooking instructions, and discover new dishes using a public API.</p>
+          <a href="https://edelance21.github.io/food-menu-explorer/" target="_blank" class="btn btn-secondary">View Project</a>
+        </div>
+      </div>
     </div>
-    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- PROYECTO 2 -->
+    <div class="carousel-item">
+      <div class="text-center">
+        <img src="imagenes/proyecto2-spa.png" loading="lazy" class="d-block w-100 project-img" alt="Proyecto 2">
+
+        <div class="mt-3">
+          <h5>Dealer Website SPA</h5>
+          <p>Single-page application for a car dealer, focused on smooth navigation, dynamic content, and a clean user experience.</p>
+          <a href="https://edelance21.github.io/SPA-DEALER/#home" target="_blank" class="btn btn-secondary">View Project</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROYECTO 3 -->
+    <div class="carousel-item">
+      <div class="text-center">
+        <img src="imagenes/proyecto3-botonesRazas.png" loading="lazy" class="d-block w-100 project-img" alt="Proyecto 3">
+
+        <div class="mt-3">
+          <h5>Dog Breed Explorer</h5>
+          <p>Interactive web app that displays dog images by breed, allowing users to explore different breeds through dynamic buttons powered by a public API.</p>
+          <a href="https://edelance21.github.io/APIS-de-perros./" target="_blank" class="btn btn-secondary">View Project</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROYECTO 4 -->
+    <div class="carousel-item">
+      <div class="text-center">
+        <img src="imagenes/proyecto4-calculadora.png" loading="lazy" class="d-block w-100 project-img4" alt="Proyecto 4">
+
+        <div class="mt-3">
+          <h5>JavaScript Calculator</h5>
+          <p>Functional calculator built with JavaScript, handling basic operations and user input through dynamic event handling.</p>
+          <a href="https://edelance21.github.io/Calculadora/" target="_blank" class="btn btn-secondary">View Project</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROYECTO 5 -->
+    <div class="carousel-item">
+      <div class="text-center">
+        <img src="imagenes/proyecto5-paginaWeb.png" class="d-block w-100 project-img" alt="Proyecto 5">
+
+        <div class="mt-3">
+          <h5>NBA Fantasy League Dashboard</h5>
+          <p>Web page created for an NBA fantasy league, featuring power rankings, voting result tables, and image carousels, built entirely with Bootstrap.</p>
+          <a href="https://edelance21.github.io/TBS-Distrito-Fantasy-2da-edicion-power-ranking/" target="_blank" class="btn btn-secondary">View Project</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- CONTROLES -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+</div>
+</div>
+
+
+  <!-- CONTACT SITE -->
+  <div class="contactSite" id="contactMe">
+    <h2>Let's Work Together</h2>
+    <p class="contact-p">
+      Have an idea, a project, or an opportunity? I’d love to hear about it.
+    </p>
+    <div class="buttons-contact">
+      <a class="btn btn-success" id="contactMe" href="mailto:delance2114@gmail.com">Email Me <img
+            class="contact-img" src="imagenes/email.png" alt="email-logo"></a>
+      <a class="btn btn-primary" id="linkendIn" target="_blank" 
+          href="https://www.linkedin.com/in/enmanuel-delance-85b3b8147/">Connect on LinkedIn <img class="contact-img" src="imagenes/linkedin.png" alt="linkedin-logo"></a>
+    </div>
+  </div>
+
+  </div>
+
+  <footer class="bg-dark text-light py-4 mt-5">
+  <div class="container text-center">
+
+    <!-- Nombre y copyright -->
+    <p class="mb-2">
+      <i class="bi bi-copyright"></i>
+      2026 &copy; Enmanuel Delance
+    </p>
+
+    <!-- Contacto -->
+    <p class="mb-3">
+      <i class="bi bi-telephone"></i>
+      1 829-899-7102
+    </p>
+
+    <!-- Redes -->
+    <div class="d-flex justify-content-center gap-4">
+      <a href="https://www.linkedin.com/in/enmanuel-delance-85b3b8147/"
+         target="_blank"
+         class="text-light fs-4">
+        <i class="bi bi-linkedin"></i>
+      </a>
+
+      <a href="mailto:delance2114@gmail.com"
+         class="text-light fs-4">
+        <i class="bi bi-envelope-fill"></i>
+      </a>
+    </div>
+
+  </div>
+</footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
