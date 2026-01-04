@@ -44,9 +44,7 @@ h1 {
     flex-direction: column;
 }
 
-.div-a #linkendIn{
-    border: 1px solid black;
-}
+
 
 .contact-img{
     width: 1.4rem;
@@ -114,7 +112,6 @@ h5{
 }
 
 .btn-secondary{
-    border: 1px solid black;
     width: 45%;
 }
 
@@ -145,7 +142,6 @@ h5{
 
 .buttons-contact #linkendIn{
     width: 70%;
-    border: 1px solid black;
 }
 
 /* media query pantallas tablet */
@@ -309,10 +305,10 @@ h1{
 }
 
 .img-perfil{
-    width: 14.5%;
+    width: 14%;
     height: auto;
     position: absolute;
-    top: 3rem;
+    top: 3.5rem;
     right: 20rem;
 }
 
