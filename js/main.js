@@ -30,3 +30,14 @@ window.addEventListener('scroll', () => {
     btnDown.classList.remove('hidden');
   }
 });
+
+
+/* correo */
+function openContact(e) {
+  e.preventDefault();
+
+  const user = 'delance2114';
+  const domain = 'gmail.com';
+
+  window.location.href = `mailto:${user}@${domain}`;
+}
