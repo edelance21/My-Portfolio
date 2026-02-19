@@ -265,7 +265,10 @@
   <!-- PROJECTS -->
    <div id="project" class="myProject">
   <h2 class="text-center mb-4">My Projects</h2>
-<div id="projectsCarousel" class="carousel slide">
+<div id="projectsCarousel" 
+class="carousel slide"
+data-bs-ride="carousel"
+data-bs-interval="5000">
 
   <!-- INDICADORES -->
   <div class="carousel-indicators">
@@ -275,13 +278,41 @@
     <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="3"></button>
     <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="4"></button>
     <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="5"></button>
+    <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="6"></button>
+    <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="7"></button>
   </div>
 
   <!-- CONTENIDO -->
   <div class="carousel-inner">
 
-    <!-- PROYECTO 1 -->
+    <!-- PROYECTO MOVIES -->
     <div class="carousel-item active">
+      <div class="text-center">
+        <img src="imagenes/proyecto-movies.png" loading="lazy" class="d-block w-100 project-img" alt="Proyecto del clima">
+
+        <div class="mt-3">
+          <h5>Movie Search Engine</h5>
+          <p>A React-based movie search application that consumes a public API to display dynamic film data. It showcases reusable components, controlled inputs, API integration, and real-time rendering of search results.</p>
+          <a href="https://edelance21.github.io/buscador-pelicualas-react/" target="_blank" class="btn btn-secondary">View Project</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROYECTO CLIMA -->
+    <div class="carousel-item">
+      <div class="text-center">
+        <img src="imagenes/proyecto-clima.png" loading="lazy" class="d-block w-100 project-img" alt="Proyecto del clima">
+
+        <div class="mt-3">
+          <h5>Weather Forecast Dashboard</h5>
+          <p>A responsive React application that fetches real-time weather data from a public API. It demonstrates state management with Hooks, asynchronous data handling, and dynamic UI updates based on user searches.</p>
+          <a href="https://edelance21.github.io/aplicacion-clima-react/" target="_blank" class="btn btn-secondary">View Project</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROYECTO 1 -->
+    <div class="carousel-item">
       <div class="text-center">
         <img src="imagenes/proyecto1-menu.png" loading="lazy" class="d-block w-100 project-img" alt="Proyecto 1">
 
